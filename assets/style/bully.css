@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+    background-image: url(../images/bully_img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: 100%; 
+}
+
+main header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 3em;
+}
+
+main header figure {
+    max-width: 80px;
+}
+
+main header figure img {
+    width: 100%;
+}
+
+main header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+main header nav ul li a {
+    color: #002954;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+/* ==== MAIN SECTION ==== */
+
+main section {
+    width: 100%;
+    height: calc(90% - 110px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main section .text {
+    max-width: 750px;
+    padding: 15px;
+}
+
+main section .text .title {
+    text-align: center;
+}
+
+main section .text .title h1, h2 {
+    color: #002954;
+    font-weight: 700;
+}
+
+main section .text .title h1 {
+    font-size: 3.5em;
+    letter-spacing: 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+main section .text .title h2 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+main section .text .description {
+    margin: 10px 0 0 0;
+}
+
+main section .text .description p {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.50px;
+    line-height: 25px;
+}
+
+/* ==== SECTION ABOUT ==== */
+
+main .section_About {
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    background-image: url(../images/bully_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+
+main .section_About .text {
+    max-width: 750px;
+    padding: 15px;
+    text-align: center;
+}
+
+main .section_About .text h3 {
+    color: #002954;
+    font-size: 2em;
+    font-weight: 7  00;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+main .section_About .text p {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.50px;
+}
+
+/* ==== SECTION GAMEPLAY ==== */
+
+main .section_Gameplay {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/bully_img3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+main .section_Gameplay .description {
+    max-width: 750px;
+    padding: 15px;
+    text-align: center;
+}
+
+main .section_Gameplay .description h3 {
+    color: #002954;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+main .section_Gameplay .description p {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+/* ==== SECTION SYNOPSIS ==== */
+
+main .section_Synopsis {
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    border: 1px solid green;
+}
+
+main .section_Synopsis .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section_Synopsis .content .text h3 {
+    color: #002954;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 30px 0 0 0;
+    text-transform: uppercase;
+}
+
+main .section_Synopsis .content .description_Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .section_Synopsis .content .description_Box .left-Side, .right-Side {
+    max-width: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+main .section_Synopsis .content .description_Box .description p {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 25px;
+}
+
+/* ==== SECTION DEVELOPMENT ==== */
+
+main .section_Development {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/bully_img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .section_Development .description {
+    max-width: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+main .section_Development .description h3 {
+    color: #002954;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main .section_Development .description p {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 25px;
+}
+
+main .button {
+    width: 65px;
+    height: 65px;
+    background-color: #002954;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    cursor: pointer;
+}
+
+main .button i {
+    font-size: 1.9em;
+    color: #fff;
+}
