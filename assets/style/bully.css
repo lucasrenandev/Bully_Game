@@ -21,7 +21,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 /* ==== MAIN ==== */
@@ -261,6 +260,56 @@ main .section_Development .description p {
     letter-spacing: 0.25px;
     line-height: 25px;
 }
+
+/* ==== MAIN SECTION PRIZES ==== */
+
+main .section_Prizes {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+main .section_Prizes .prizes_Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .section_Prizes .prizes_Box .text {
+    margin: 0 0 20px 0;
+}
+
+main .section_Prizes .prizes_Box .text h3 {
+    color: #002954;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main .section_Prizes .prizes_Box .prizes {
+    max-width: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+main .section_Prizes .prizes_Box .prizes nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+main .section_Prizes .prizes_Box .prizes nav ul li {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;    
+}
+
+
+
 
 main .button {
     width: 65px;
