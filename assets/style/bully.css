@@ -114,9 +114,8 @@ main .section_About {
     height: 500px;
     background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
