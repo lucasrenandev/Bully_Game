@@ -17,7 +17,7 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #fff;
-    background-image: url(../images/bully_img2.jpg);
+    background-image: url(../images/bully_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,7 +149,7 @@ main .section_About .text p {
 main .section_Gameplay {
     width: 100%;
     height: 500px;
-    background-image: url(../images/bully_img3.jpg);
+    background-image: url(../images/bully_gameplay.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -232,7 +232,7 @@ main .section_Synopsis .content .description_Box .description p {
 main .section_Development {
     width: 100%;
     height: 500px;
-    background-image: url(../images/bully_img1.jpg);
+    background-image: url(../images/bully_development.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
