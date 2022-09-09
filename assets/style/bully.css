@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
@@ -29,7 +30,7 @@ main {
 }
 
 main header {
-    height: 110px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,51 +58,51 @@ main header nav ul li a {
     font-weight: 700;
 }
 
+main header nav ul li a:hover {
+    color: #0168B3;
+}
+
 /* ==== MAIN SECTION ==== */
 
-main section {
+main .first-Section {
     width: 100%;
-    height: calc(90% - 110px);
+    height: calc(90% - 100px);
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-main section .text {
-    max-width: 750px;
+main .first-Section .text {
+    max-width: 700px;
     padding: 15px;
-}
-
-main section .text .title {
     text-align: center;
 }
 
-main section .text .title h1, h2 {
+main .first-Section .text .title h1, h2 {
     color: #002954;
     font-weight: 700;
 }
 
-main section .text .title h1 {
+main .first-Section .text .title h1 {
     font-size: 3.5em;
     letter-spacing: 10px;
     line-height: 60px;
     text-transform: uppercase;
 }
 
-main section .text .title h2 {
+main .first-Section .text .title h2 {
     font-size: 1.5em;
     letter-spacing: 1px;
 }
 
-main section .text .description {
+main .first-Section .text .description {
     margin: 10px 0 0 0;
 }
 
-main section .text .description p {
+main .first-Section .text .description p {
     color: #fff;
     font-size: 1em;
     font-weight: 400;
-    text-align: center;
     letter-spacing: 0.50px;
     line-height: 25px;
 }
@@ -115,10 +116,10 @@ main .section_About {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0 0 0;
 }
 
 main .section_About .text {
@@ -129,7 +130,7 @@ main .section_About .text {
 
 main .section_About .text h3 {
     color: #002954;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 7  00;
     text-transform: uppercase;
     margin: 0 0 10px 0;
@@ -153,6 +154,8 @@ main .section_Gameplay {
     background-size: cover;
     display: flex;
     align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 
@@ -164,7 +167,7 @@ main .section_Gameplay .description {
 
 main .section_Gameplay .description h3 {
     color: #002954;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 10px 0;
@@ -195,7 +198,7 @@ main .section_Synopsis .content {
 
 main .section_Synopsis .content .text h3 {
     color: #002954;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 700;
     padding: 30px 0 0 0;
     text-transform: uppercase;
@@ -232,6 +235,9 @@ main .section_Development {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 main .section_Development .description {
@@ -242,7 +248,7 @@ main .section_Development .description {
 
 main .section_Development .description h3 {
     color: #002954;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 700;
     text-transform: uppercase;
 }
