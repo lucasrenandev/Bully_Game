@@ -316,10 +316,7 @@ main .section_Prizes .prizes_Box .prizes nav ul li {
 main footer {
     width: 100%;
     height: 80px;
-    background-image: url(../images/bully_footer.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #000;
 }
 
 main footer .footer-Box {
@@ -330,7 +327,7 @@ main footer .footer-Box {
     justify-content: center;
 }
 
-main footer .footer-Box span {
+main footer .footer-Box .copy span {
     color: #fff;
     font-size: 1em;
     font-weight: 400;
