@@ -23,7 +23,7 @@ body {
     background-size: cover;
 }
 
-/* ==== MAIN ==== */
+/* ==== HEADER ==== */
 
 header {
     height: 100px;
@@ -58,7 +58,7 @@ header nav ul li a:hover {
     color: #0168B3;
 }
 
-/* ==== MAIN FIRST SECTION ==== */
+/* ==== FIRST SECTION ==== */
 
 .first-Section {
     width: 100%;
@@ -103,7 +103,7 @@ header nav ul li a:hover {
     line-height: 25px;
 }
 
-/* ==== MAIN SECTION ABOUT ==== */
+/* ==== SECTION ABOUT ==== */
 
 .section_About {
     width: 100%;
@@ -138,12 +138,12 @@ header nav ul li a:hover {
     letter-spacing: 0.50px;
 }
 
-/* ==== MAIN SECTION GAMEPLAY ==== */
+/* ==== SECTION GAMEPLAY ==== */
 
 .section_Gameplay {
     width: 100%;
     height: 500px;
-    background-image: url(../images/bully_development.jpg);
+    background-image: url(../images/bully_gameplay2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -175,7 +175,7 @@ header nav ul li a:hover {
     letter-spacing: 0.25px;
 }
 
-/* ==== MAIN SECTION SYNOPSIS ==== */
+/* ==== SECTION SYNOPSIS ==== */
 
 .section_Synopsis {
     width: 100%;
@@ -224,12 +224,12 @@ header nav ul li a:hover {
     line-height: 25px;
 }
 
-/* ==== MAIN SECTION DEVELOPMENT ==== */
+/* ==== SECTION DEVELOPMENT ==== */
 
 .section_Development {
     width: 100%;
     height: 500px;
-    background-image: url(../images/bully_gameplay.jpg);
+    background-image: url(../images/bully_development.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -259,7 +259,7 @@ header nav ul li a:hover {
     line-height: 25px;
 }
 
-/* ==== MAIN SECTION PRIZES ==== */
+/* ==== SECTION PRIZES ==== */
 
 .section_Prizes {
     width: 100%;
@@ -306,7 +306,7 @@ header nav ul li a:hover {
     font-weight: 400;    
 }
 
-/* ==== MAIN FOOTER === */
+/* ==== FOOTER === */
 
 footer {
     width: 100%;
@@ -336,7 +336,7 @@ footer .footer-Box .copy span a:hover {
     text-decoration: underline;
 }
 
-/* ==== MAIN BUTTON ==== */
+/* ==== BUTTON ==== */
 
 .button {
     width: 65px;
