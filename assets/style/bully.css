@@ -25,12 +25,7 @@ body {
 
 /* ==== MAIN ==== */
 
-main {
-    width: 100%;
-    height: 100%;
-}
-
-main header {
+header {
     height: 100px;
     display: flex;
     align-items: center;
@@ -39,33 +34,33 @@ main header {
     padding: 0 3em;
 }
 
-main header figure {
+header figure {
     max-width: 80px;
 }
 
-main header figure img {
+header figure img {
     width: 100%;
 }
 
-main header nav ul {
+header nav ul {
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-main header nav ul li a {
+header nav ul li a {
     color: #002954;
     font-size: 1em;
     font-weight: 700;
 }
 
-main header nav ul li a:hover {
+header nav ul li a:hover {
     color: #0168B3;
 }
 
 /* ==== MAIN FIRST SECTION ==== */
 
-main .first-Section {
+.first-Section {
     width: 100%;
     height: calc(90% - 100px);
     display: flex;
@@ -73,34 +68,34 @@ main .first-Section {
     justify-content: flex-start;
 }
 
-main .first-Section .text {
+.first-Section .text {
     max-width: 700px;
     padding: 15px;
     text-align: center;
 }
 
-main .first-Section .text .title h1, h2 {
+.first-Section .text .title h1, h2 {
     color: #002954;
     font-weight: 700;
 }
 
-main .first-Section .text .title h1 {
+.first-Section .text .title h1 {
     font-size: 3.5em;
     letter-spacing: 10px;
     line-height: 60px;
     text-transform: uppercase;
 }
 
-main .first-Section .text .title h2 {
+.first-Section .text .title h2 {
     font-size: 1.5em;
     letter-spacing: 1px;
 }
 
-main .first-Section .text .description {
+.first-Section .text .description {
     margin: 10px 0 0 0;
 }
 
-main .first-Section .text .description p {
+.first-Section .text .description p {
     color: #fff;
     font-size: 1em;
     font-weight: 400;
@@ -110,7 +105,7 @@ main .first-Section .text .description p {
 
 /* ==== MAIN SECTION ABOUT ==== */
 
-main .section_About {
+.section_About {
     width: 100%;
     height: 500px;
     background-color: #fff;
@@ -122,13 +117,13 @@ main .section_About {
     justify-content: center;
 }
 
-main .section_About .text {
+.section_About .text {
     max-width: 750px;
     padding: 15px;
     text-align: center;
 }
 
-main .section_About .text h3 {
+.section_About .text h3 {
     color: #002954;
     font-size: 2.2em;
     font-weight: 7  00;
@@ -136,7 +131,7 @@ main .section_About .text h3 {
     margin: 0 0 10px 0;
 }
 
-main .section_About .text p {
+.section_About .text p {
     color: #000;
     font-size: 1em;
     font-weight: 400;
@@ -145,7 +140,7 @@ main .section_About .text p {
 
 /* ==== MAIN SECTION GAMEPLAY ==== */
 
-main .section_Gameplay {
+.section_Gameplay {
     width: 100%;
     height: 500px;
     background-image: url(../images/bully_development.jpg);
@@ -159,13 +154,13 @@ main .section_Gameplay {
     justify-content: flex-start;
 }
 
-main .section_Gameplay .description {
+.section_Gameplay .description {
     max-width: 750px;
     padding: 15px;
     text-align: center;
 }
 
-main .section_Gameplay .description h3 {
+.section_Gameplay .description h3 {
     color: #002954;
     font-size: 2.2em;
     font-weight: 700;
@@ -173,7 +168,7 @@ main .section_Gameplay .description h3 {
     margin: 0 0 10px 0;
 }
 
-main .section_Gameplay .description p {
+.section_Gameplay .description p {
     color: #fff;
     font-size: 1em;
     font-weight: 400;
@@ -182,13 +177,13 @@ main .section_Gameplay .description p {
 
 /* ==== MAIN SECTION SYNOPSIS ==== */
 
-main .section_Synopsis {
+.section_Synopsis {
     width: 100%;
     height: 500px;
     background-color: #fff;
 }
 
-main .section_Synopsis .content {
+.section_Synopsis .content {
     width: 100%;
     height: 100%;
     display: flex;
@@ -196,18 +191,18 @@ main .section_Synopsis .content {
     align-items: center;
 }
 
-main .section_Synopsis .content .text {
+.section_Synopsis .content .text {
     margin: 30px 0 0 0;
 }
 
-main .section_Synopsis .content .text h3 {
+.section_Synopsis .content .text h3 {
     color: #002954;
     font-size: 2.2em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-main .section_Synopsis .content .description_Box {
+.section_Synopsis .content .description_Box {
     width: 100%;
     height: 100%;
     display: flex;
@@ -215,13 +210,13 @@ main .section_Synopsis .content .description_Box {
     justify-content: space-around;
 }
 
-main .section_Synopsis .content .description_Box .left-Side, .right-Side {
+.section_Synopsis .content .description_Box .left-Side, .right-Side {
     max-width: 600px;
     padding: 15px;
     text-align: center;
 }
 
-main .section_Synopsis .content .description_Box .description p {
+.section_Synopsis .content .description_Box .description p {
     color: #000;
     font-size: 1em;
     font-weight: 400;
@@ -231,7 +226,7 @@ main .section_Synopsis .content .description_Box .description p {
 
 /* ==== MAIN SECTION DEVELOPMENT ==== */
 
-main .section_Development {
+.section_Development {
     width: 100%;
     height: 500px;
     background-image: url(../images/bully_gameplay.jpg);
@@ -243,20 +238,20 @@ main .section_Development {
     justify-content: flex-end;
 }
 
-main .section_Development .description {
+.section_Development .description {
     max-width: 600px;
     padding: 15px;
     text-align: center;
 }
 
-main .section_Development .description h3 {
+.section_Development .description h3 {
     color: #002954;
     font-size: 2.2em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-main .section_Development .description p {
+.section_Development .description p {
     color: #fff;
     font-size: 1em;
     font-weight: 400;
@@ -266,13 +261,13 @@ main .section_Development .description p {
 
 /* ==== MAIN SECTION PRIZES ==== */
 
-main .section_Prizes {
+.section_Prizes {
     width: 100%;
     height: 500px;
     background-color: #fff;
 }
 
-main .section_Prizes .prizes_Box {
+.section_Prizes .prizes_Box {
     width: 100%;
     height: 100%;
     display: flex;
@@ -281,31 +276,31 @@ main .section_Prizes .prizes_Box {
     justify-content: center;
 }
 
-main .section_Prizes .prizes_Box .text {
+.section_Prizes .prizes_Box .text {
     margin: 0 0 20px 0;
 }
 
-main .section_Prizes .prizes_Box .text h3 {
+.section_Prizes .prizes_Box .text h3 {
     color: #002954;
     font-size: 2.2em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-main .section_Prizes .prizes_Box .prizes {
+.section_Prizes .prizes_Box .prizes {
     max-width: 600px;
     padding: 15px;
     text-align: center;
 }
 
-main .section_Prizes .prizes_Box .prizes nav ul {
+.section_Prizes .prizes_Box .prizes nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
 }
 
-main .section_Prizes .prizes_Box .prizes nav ul li {
+.section_Prizes .prizes_Box .prizes nav ul li {
     color: #000;
     font-size: 1em;
     font-weight: 400;    
@@ -313,13 +308,13 @@ main .section_Prizes .prizes_Box .prizes nav ul li {
 
 /* ==== MAIN FOOTER === */
 
-main footer {
+footer {
     width: 100%;
     height: 60px;
     background-color: #000;
 }
 
-main footer .footer-Box {
+footer .footer-Box {
     width: 100%;
     height: 100%;
     display: flex;
@@ -327,23 +322,23 @@ main footer .footer-Box {
     justify-content: center;
 }
 
-main footer .footer-Box .copy span {
+footer .footer-Box .copy span {
     color: #fff;
     font-size: 1em;
     font-weight: 400;
 }
 
-main footer .footer-Box .copy span a {
+footer .footer-Box .copy span a {
     color: #0168B3;
 }
 
-main footer .footer-Box .copy span a:hover {
+footer .footer-Box .copy span a:hover {
     text-decoration: underline;
 }
 
 /* ==== MAIN BUTTON ==== */
 
-main .button {
+.button {
     width: 65px;
     height: 65px;
     background-color: #002954;
@@ -357,7 +352,7 @@ main .button {
     cursor: pointer;
 }
 
-main .button i {
+.button i {
     font-size: 1.9em;
     color: #fff;
 }
