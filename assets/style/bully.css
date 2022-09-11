@@ -339,12 +339,6 @@ header nav ul li a:hover {
     justify-content: space-around;
 }
 
-.section_Aside .aside_Box aside .left-Side {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .section_Aside .aside_Box aside .left-Side .description {
     max-width: 600px;
     padding: 15px;
