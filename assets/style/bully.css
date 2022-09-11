@@ -59,9 +59,9 @@ header nav ul li a:hover {
     color: #0168B3;
 }
 
-/* ==== FIRST SECTION ==== */
+/* ==== SECTION MAIN ==== */
 
-.first-Section {
+.section_Main {
     width: 100%;
     height: 500px;
     display: flex;
@@ -69,34 +69,34 @@ header nav ul li a:hover {
     justify-content: flex-start;
 }
 
-.first-Section .text {
+.section_Main .text {
     max-width: 700px;
     padding: 15px;
     text-align: center;
 }
 
-.first-Section .text .title h1, h2 {
+.section_Main .text .title h1, h2 {
     color: #002954;
     font-weight: 700;
 }
 
-.first-Section .text .title h1 {
+.section_Main .text .title h1 {
     font-size: 3.5em;
     letter-spacing: 10px;
     line-height: 60px;
     text-transform: uppercase;
 }
 
-.first-Section .text .title h2 {
+.section_Main .text .title h2 {
     font-size: 1.5em;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
-.first-Section .text .description {
+.section_Main .text .description {
     margin: 10px 0 0 0;
 }
 
-.first-Section .text .description p {
+.section_Main .text .description p {
     color: #fff;
     font-size: 1em;
     font-weight: 400;
@@ -371,7 +371,7 @@ header nav ul li a:hover {
 
 footer {
     width: 100%;
-    height: 65px;
+    height: 70px;
     background-color: #000;
 }
 
@@ -391,10 +391,12 @@ footer .footer-Box .copy span {
 
 footer .footer-Box .copy span a {
     color: #0168B3;
+    padding: 3px 5px;
 }
 
 footer .footer-Box .copy span a:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid #0168B3;
+    border-radius: 5px;
 }
 
 /* ==== BUTTON ==== */
@@ -408,7 +410,7 @@ footer .footer-Box .copy span a:hover {
     align-items: center;
     justify-content: center;
     position: fixed;
-    bottom: 80px;
+    bottom: 90px;
     right: 25px;
     cursor: pointer;
 }
