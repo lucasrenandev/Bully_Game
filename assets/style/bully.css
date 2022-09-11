@@ -52,7 +52,7 @@ header nav ul {
 header nav ul li a {
     color: #002954;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header nav ul li a:hover {
@@ -305,6 +305,73 @@ header nav ul li a:hover {
     color: #000;
     font-size: 1em;
     font-weight: 400;    
+}
+
+/* ==== SECTION ASIDE ==== */
+
+.section_Aside {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(243, 243, 243);
+}
+
+.section_Aside .aside_Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_Aside .aside_Box .text {
+    margin: 0 0 20px 0;
+}
+
+.section_Aside .aside_Box .text h3 {
+    color: #002954;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section_Aside .aside_Box aside {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    border: 2px solid #0168B3;
+}
+
+.section_Aside .aside_Box aside .left-Side, .right-Side {
+    flex: 1;
+}
+
+.section_Aside .aside_Box aside .left-Side {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section_Aside .aside_Box aside .left-Side .description {
+    padding: 15px;
+    text-align: center;
+}
+
+.section_Aside .aside_Box aside .left-Side .description p {
+    color: #000;
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.section_Aside .aside_Box aside .right-Side figure {
+    width: 100%;
+    height: 100%;
+}
+
+.section_Aside .aside_Box aside .right-Side figure img {
+    width: 100%;
+    height: 100%;
 }
 
 /* ==== FOOTER === */
