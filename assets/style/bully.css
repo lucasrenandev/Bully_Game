@@ -321,10 +321,12 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .section_Aside .aside_Box .text {
-    margin: 0 0 20px 0;
+    
+    margin: 0 0 5px 0;
 }
 
 .section_Aside .aside_Box .text h3 {
