@@ -8,7 +8,7 @@ menuItems.forEach(item => {
 /* rolagem dos links de navegação por ID */
 function scrollId_OnClick(event) {
     event.preventDefault()
-    const scroll = getScrollByHref(event.target) - 200
+    const scroll = getScrollByHref(event.target) - 120
     scroll_Smooth(scroll)
 }
 
