@@ -9,8 +9,8 @@ menuItems.forEach(item => {
 function scrollId_OnClick(event) {
     event.preventDefault()
     const scroll = getScrollByHref(event.target) - 200
-
     scroll_Smooth(scroll)
+
 }
 
 /* scroll suave */
@@ -29,15 +29,12 @@ function getScrollByHref(element) {
 
 /* == SCRIPT PARA O SCROLL DO BOTÃO == */
 const button = document.getElementById("button")
-
 button.addEventListener("click", function () {
     window.scrollTo(0, 0)
 })
 
 document.addEventListener("scroll", Hidden)
-
 function Hidden() {
-
     if(window.scrollY > 1000) {
         button.style.display = "flex"
     }
@@ -45,5 +42,4 @@ function Hidden() {
         button.style.display = "none"
     }
 }
-
 Hidden()
