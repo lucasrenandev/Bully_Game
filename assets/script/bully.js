@@ -10,7 +10,6 @@ function scrollId_OnClick(event) {
     event.preventDefault()
     const scroll = getScrollByHref(event.target) - 200
     scroll_Smooth(scroll)
-
 }
 
 /* scroll suave */
