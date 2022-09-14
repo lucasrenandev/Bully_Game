@@ -1,6 +1,6 @@
 
 const button = document.getElementById("button")
-button.addEventListener("click", function () {
+button.addEventListener("click", function() {
     window.scrollTo(0, 0)
 })
 
