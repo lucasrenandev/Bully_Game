@@ -399,7 +399,7 @@ footer .footer-Box .copy span a {
 
 footer .footer-Box .copy span a:hover {
     border-bottom: 1px solid #0168B3;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
 }
 
 /* ==== BUTTON ==== */
