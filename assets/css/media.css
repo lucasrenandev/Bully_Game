@@ -1,4 +1,4 @@
-@media (max-width: 1150px) {
+@media (max-width: 1250px) {
 
     header .menu {
         display: block;
@@ -46,6 +46,10 @@
     .section_Synopsis .content .description_Box {
         flex-direction: column;
         justify-content: center;
+    }
+
+    .section_Prizes .prizes_Box .text {
+        margin: 15px 0 0 0;
     }
 
     .section_Aside .aside_Box aside .right-Side {
