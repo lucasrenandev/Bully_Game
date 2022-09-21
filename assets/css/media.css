@@ -53,6 +53,13 @@
     }
 }
 
+@media (max-width: 600px) {
+    
+    header {
+        padding: 0 1em;
+    }
+}
+
 @media (max-width: 400px) {
     
     header {
