@@ -389,6 +389,7 @@ footer .footer-Box {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 0.9em;
 }
 
 footer .footer-Box .copy span {
@@ -399,12 +400,10 @@ footer .footer-Box .copy span {
 
 footer .footer-Box .copy span a {
     color: #0168B3;
-    padding: 3px 5px;
 }
 
 footer .footer-Box .copy span a:hover {
     border-bottom: 1px solid #0168B3;
-    border-radius: 0 0 5px 5px;
 }
 
 /* ==== BUTTON ==== */

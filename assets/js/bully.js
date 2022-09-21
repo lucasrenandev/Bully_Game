@@ -1,4 +1,3 @@
-
 // Scroll
 const button = document.getElementById("button")
 button.addEventListener("click", function() {
@@ -20,9 +19,9 @@ Hidden()
 const menu = document.querySelector(".menu")
 const menuImage = document.querySelector(".menu img")
 const navegation = document.querySelector("nav ul")
-menu.addEventListener("click", openMenu)
+menu.addEventListener("click", responsiveMenu)
 
-function openMenu() {
+function responsiveMenu() {
     
     navegation.classList.toggle("active")
 
