@@ -19,8 +19,8 @@ Hidden()
 const menu = document.querySelector(".menu")
 const menuImage = document.querySelector(".menu img")
 const navegation = document.querySelector("nav ul")
-menu.addEventListener("click", responsiveMenu)
 
+menu.addEventListener("click", responsiveMenu)
 function responsiveMenu() {
     
     navegation.classList.toggle("active")
