@@ -60,6 +60,11 @@ header nav ul li a:hover {
     color: #0168B3;
 }
 
+header .menu {
+    cursor: pointer;
+    display: none;
+}
+
 /* ==== SECTION MAIN ==== */
 
 .section_Main {
@@ -384,6 +389,7 @@ footer .footer-Box {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 footer .footer-Box .copy span {

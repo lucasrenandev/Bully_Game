@@ -1,0 +1,126 @@
+@media (max-width: 1150px) {
+    
+    header .menu {
+        display: block;
+        z-index: 10;
+    }
+
+    .button {
+        visibility: hidden;
+    }
+
+    header nav ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #0168B3;
+        transform: translateX(-100%);
+        transition: 0.4s ease-in;
+    }
+
+    header nav ul.active {
+        transform: translateX(0);
+    }
+
+    header nav ul li a {
+        color: #fff;
+        font-size: 1.5em;
+    }
+
+    .section_Main, .section_About, .section_Gameplay, .section_Synopsis, .section_Development, .section_Prizes, .section_Aside {
+        height: 100%;
+    }
+
+    .section_Main, .section_Gameplay, .section_Development {
+        justify-content: center;
+    }
+
+    .section_Synopsis .content .description_Box {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section_Aside .aside_Box aside .right-Side {
+        display: none;
+    }
+
+    .section_Aside .aside_Box aside {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        padding: 0 1em;
+    }
+
+    header figure {
+        max-width: 69px;
+    }
+    
+    .section_Main .text .title h1 {
+        font-size: 3em;
+    }
+
+    .section_Main .text .title h2 {
+        font-size: 1.3em;
+    }
+
+    .section_Main .text .description p {
+        font-size: 0.9em;
+    }
+
+    .section_About .text h3 {
+        font-size: 1.6em;
+    }
+
+    .section_About .text p {
+        font-size: 0.9em;
+    }
+
+    .section_Synopsis .content .text h3 {
+        font-size: 1.6em;
+    }
+
+    .section_Synopsis .content .description_Box .description p {
+        font-size: 0.9em;
+    }
+
+    .section_Gameplay .description h3 {
+        font-size: 1.6em;
+    }
+
+    .section_Gameplay .description p {
+        font-size: 0.9em;
+    }
+
+    .section_Development .description h3 {
+        font-size: 1.6em;
+    }
+
+    .section_Development .description p {
+        font-size: 0.9em;
+    }
+
+    .section_Prizes .prizes_Box .text h3 {
+        font-size: 1.6em;
+    }
+
+    .section_Prizes .prizes_Box .prizes nav ul li {
+        font-size: 0.9em;
+    }
+
+   .section_Aside .aside_Box .text h3 {
+        font-size: 1.6em;
+   }
+
+   footer .footer-Box .copy {
+        width: 100%;
+        text-align: center;
+   }
+
+}
