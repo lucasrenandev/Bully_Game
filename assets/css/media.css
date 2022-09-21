@@ -31,6 +31,10 @@
         font-size: 1.5em;
     }
 
+    header nav ul li a:hover {
+        color: #fff;
+    }
+
     .section_Main, .section_About, .section_Gameplay, .section_Synopsis, .section_Development, .section_Prizes, .section_Aside {
         height: 100%;
     }
