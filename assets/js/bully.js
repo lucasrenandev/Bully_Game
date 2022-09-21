@@ -23,6 +23,7 @@ const navegation = document.querySelector("nav ul")
 menu.addEventListener("click", openMenu)
 
 function openMenu() {
+    
     navegation.classList.toggle("active")
 
     if(menuImage.getAttribute("src") === "assets/images/open.svg") {
