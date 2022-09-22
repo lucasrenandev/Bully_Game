@@ -15,7 +15,7 @@ function Hidden() {
 }
 Hidden()
 
-// Mobile menu
+// Responsive menu
 const menu = document.querySelector(".menu")
 const menuImage = document.querySelector(".menu img")
 const navegation = document.querySelector("nav ul")
