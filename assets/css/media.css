@@ -20,6 +20,7 @@
         background-color: #0168B3;
         transform: translateX(-100%);
         transition: 0.3s ease;
+        z-index: 10;
     }
 
     header nav ul.active {
