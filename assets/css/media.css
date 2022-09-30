@@ -19,7 +19,7 @@
         justify-content: center;
         background-color: #0168B3;
         transform: translateX(-100%);
-        transition: 0.4s ease;
+        transition: 0.3s ease;
     }
 
     header nav ul.active {
