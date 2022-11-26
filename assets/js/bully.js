@@ -6,7 +6,7 @@ button.addEventListener("click", function() {
 
 document.addEventListener("scroll", Hidden)
 function Hidden() {
-    if(window.scrollY > 1000) {
+    if(window.scrollY > 600) {
         button.style.display = "flex"
     }
     else {
